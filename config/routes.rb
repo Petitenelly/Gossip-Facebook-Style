@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   resources :gossips do
   	resources :comments do
   		resources :commentlike
